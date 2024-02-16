@@ -1,0 +1,14 @@
+{
+    "name": "TimerMgi",
+    "version": "1.0.0",
+    "description": "An elapsed timer for Arduino",
+
+    "authors":
+    [
+      {
+        "name": "Adam Retberg"
+      }
+    ],
+    "frameworks": "Arduino",
+    "platforms": "*"
+  }
