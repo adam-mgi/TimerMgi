@@ -2,7 +2,11 @@
     "name": "TimerMgi",
     "version": "1.0.0",
     "description": "An elapsed timer for Arduino",
-
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/adam-mgi/TimerMgi.git"
+    },
     "authors":
     [
       {
