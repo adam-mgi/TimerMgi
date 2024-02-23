@@ -12,6 +12,7 @@ class TimerMgi {
         void TickTimer();
         void ResetTimer();
         bool IsElapsed();
+        void ForceElapsed();
 
     private:
         unsigned long curr_time_;
