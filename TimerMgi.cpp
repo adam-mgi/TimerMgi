@@ -28,3 +28,9 @@ void TimerMgi::ResetTimer() {
 bool TimerMgi::IsElapsed() {
     return TimerMgi::elapsed_;
 }
+
+void TimerMgi::ForceElapsed()
+{
+    TimerMgi::elapsed_ = true;
+    TimerMgi::curr_time_ = TimerMgi::set_point_;
+}
