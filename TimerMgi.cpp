@@ -1,12 +1,12 @@
 #include <TimerMgi.h>
 
-TimerMgi::TimerMgi(unsigned int set_point, bool elapsed) {
+TimerMgi::TimerMgi(unsigned long set_point, bool elapsed) {
     TimerMgi::elapsed_ = elapsed;
     TimerMgi::set_point_ = set_point;
     TimerMgi::curr_time_ = millis();
 }
 
-void TimerMgi::SetSetPoint( unsigned int set_point ) {
+void TimerMgi::SetSetPoint( unsigned long set_point ) {
     TimerMgi::set_point_ = set_point;
 }
 
