@@ -10,7 +10,7 @@ void TimerMgi::SetSetPoint( unsigned long set_point ) {
     TimerMgi::set_point_ = set_point;
 }
 
-unsigned int TimerMgi::GetSetPoint() {
+unsigned long TimerMgi::GetSetPoint() {
     return TimerMgi::set_point_;
 }
 
