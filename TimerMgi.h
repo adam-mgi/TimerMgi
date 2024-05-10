@@ -8,7 +8,7 @@ class TimerMgi {
 
         // Methods
         void SetSetPoint( unsigned long set_point );
-        unsigned int GetSetPoint();
+        unsigned long GetSetPoint();
         void TickTimer();
         void ResetTimer();
         bool IsElapsed();
