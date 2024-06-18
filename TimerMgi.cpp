@@ -34,3 +34,8 @@ void TimerMgi::ForceElapsed()
     TimerMgi::elapsed_ = true;
     TimerMgi::curr_time_ = TimerMgi::set_point_;
 }
+
+unsigned long TimerMgi::GetElapsedTime()
+{
+    return (millis() - curr_time_);
+}
